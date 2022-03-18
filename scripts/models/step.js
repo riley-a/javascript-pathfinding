@@ -5,7 +5,6 @@ $(document).ready(function () {
         // Euclidean distance, C = current, T = target
         distanceE: function (xC, yC, xT, yT) {
             var dx = xT - xC, dy = yT - yC;
-            console.log(dx dy);
             return Math.sqrt((dx * dx) + (dy * dy));
         },
 
